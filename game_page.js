@@ -1,0 +1,11 @@
+var player1= localStorage.getItem("player1_name");
+var player2= localStorage.getItem("player2_name");
+var player1score= "0";
+var player2score= "0";
+var playerturn= player1;
+document.getElementById("player1_name").innerHTML= player1;
+document.getElementById("player2_name").innerHTML= player2;
+document.getElementById("player1_score").innerHTML= player1score;
+document.getElementById("player2_score").innerHTML= player2score;
+document.getElementById("player_question").innerHTML= "Question Turn-"+ player1;
+document.getElementById("player_answer").innerHTML= "Answer Turn-"+ player2;
